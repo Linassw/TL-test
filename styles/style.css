@@ -1,0 +1,5 @@
+textarea{ border: solid 1px black; width: 50%; height: 250px; }
+table {border-collapse: collapse;}
+th,td {padding: 3px;}
+table,th,td {border: solid 1px black;}
+ul.errors { color: red; list-style-type: circle; }

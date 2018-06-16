@@ -1,0 +1,25 @@
+id;author;title
+0;Victor;Secrets
+1;Linus;"stuff; whatever, also semicolons;"
+15;Bob;"Can there be "too many" quotes ""?"
+23;Linus;"Of \newlines and  \r\n returns"
+27;;The author is a null: hows that even possible
+1;Linus;Here we have a duplicate id from the same author
+15;Linus;Here we have a duplicate id but a different author
+32;"";The author is an empty string
+12;IamTheAuthor;And this is a title;and what's this?
+666;Mike;This title has a huge trailing blank                                                                                                                                                               
+30;JohnnyDaHacker;<script type="text/javascript">alert('gotcha')</script>
+99;BobbyTables;"; drop table students;#"
+10000;DuplicateTitleDifferentId;Secrets
+
+5;Linus;Whats up with random blank lines
+8;Linus;Odd "number "of quotes" ftw
+11;Linus;"more odd" quotes" within" quotes"
+-1;Linus;Negative id
+asdf;Linus;Nonsensical id
+12,5;Linus;Numerical float id
+36,000;Linus;numerical id formatted to US locale
+36 000,25;Linus;numerical float id formatted to LT locale
+;Linus;No id at all
+"";Linus;Empty string id

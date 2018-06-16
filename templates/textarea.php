@@ -1,0 +1,1 @@
+<textarea id="textarea"><?php print htmlspecialchars($rawCSVdata, ENT_QUOTES); ?></textarea>
